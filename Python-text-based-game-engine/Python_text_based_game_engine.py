@@ -1,7 +1,9 @@
-import sys
+﻿import sys
 import os
-from Configuration import Board
+from BoardGame import Board, Character
 
-matrix = Board.Board(10,5)
+def main():
+    pass
 
-print(matrix.board)
+if __name__ == "__main__":
+    sys.exit(int(main() or 0))

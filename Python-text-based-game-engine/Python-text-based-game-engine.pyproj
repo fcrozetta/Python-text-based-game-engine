@@ -22,16 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Configuration\Board.py">
+    <Compile Include="BoardGame\Board.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Configuration\__init__.py">
+    <Compile Include="BoardGame\Character.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BoardGame\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Python_text_based_game_engine.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configuration\" />
+    <Folder Include="BoardGame\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
