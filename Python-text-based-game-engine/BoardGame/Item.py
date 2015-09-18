@@ -14,5 +14,3 @@ class Item(object):
         self.description = description
         self.weight = weight
         self.attributes = {}
-
-
