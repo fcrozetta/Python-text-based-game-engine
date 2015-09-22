@@ -38,6 +38,7 @@ class Character(object):
         self.possibleInteractions = [] # List of possible interactions with character
         self.mood = Moods.neutral # character's mood
         self.speed = 1; # character movement speed
+        self.position = (0,0)
         self.inventory = Inventory("{character}.inventory".format(character=self.id),12,100) # main inventory, by default: slots = 12, max_wheight = 100 
         
         #verbose and simple...

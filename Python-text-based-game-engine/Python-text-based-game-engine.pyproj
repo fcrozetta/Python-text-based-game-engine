@@ -28,6 +28,9 @@
     <Compile Include="BoardGame\Character.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="BoardGame\Furniture.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BoardGame\Item.py">
       <SubType>Code</SubType>
     </Compile>
