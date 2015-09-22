@@ -10,7 +10,6 @@ def main():
     stairs = Furniture.Stair('s1','stairs','this is a fucking stair',1)
 
 
-    tutorial_tile.characters.append(tutorial_char)
     tutorial_tile.objects.append(table)
     tutorial_tile.objects.append(stairs)
     tutorial_map.board[0][0] = tutorial_tile

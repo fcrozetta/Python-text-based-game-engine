@@ -7,7 +7,6 @@ class Tile(object):
         self.title = title
         self.description = description
         self.objects = []
-        self.characters = []
 
 class Board(object):
     """Creates a Matrix board"""
